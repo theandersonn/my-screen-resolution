@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ScreenResolution from './components/ScreenResolution'
+import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ScreenResolution />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )
