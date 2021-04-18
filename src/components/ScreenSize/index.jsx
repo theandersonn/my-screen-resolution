@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import * as S from './styles'
+import * as S from 'components/ScreenResolution/styles'
 
 const ScreenSize = () => {
   const [dimensions, setDimensions] = useState({
@@ -25,9 +25,13 @@ const ScreenSize = () => {
 
   return (
     <S.Wrapper>
-      <h2>Screen Size is</h2>
-      <p>Screen Width: {dimensions.width} pixels</p>
-      <p>Screen Height: {dimensions.height} pixels</p>
+      <S.Title>Screen Size</S.Title>
+      <S.Description>
+        Screen Width: <span>{dimensions.width}</span> pixels
+      </S.Description>
+      <S.Description>
+        Screen Height: <span>{dimensions.height}</span> pixels
+      </S.Description>
     </S.Wrapper>
   )
 }

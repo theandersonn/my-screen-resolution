@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.footer`
+export const Wrapper = styled.h1`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xsmall};
+    font-size: ${theme.font.sizes.xxlarge};
     color: ${theme.colors.white};
   `}
 `

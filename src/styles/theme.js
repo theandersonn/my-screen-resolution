@@ -7,14 +7,15 @@ const theme = {
       small: '1.4rem',
       medium: '1.6rem',
       large: '1.8rem',
-      xlarge: '2.0rem',
-      xxlarge: '6.0rem'
+      xlarge: '2.6rem',
+      xxlarge: '4.6rem'
     }
   },
   colors: {
-    primary: '#343A40',
-    secondary: 'ADB5BD',
-    white: 'F8F9FA'
+    primary: '#262626',
+    secondary: '#EDF153',
+    white: '#F8F9FA',
+    gray: '#585858'
   },
   spacings: {
     xxsmall: '0.8rem',

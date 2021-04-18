@@ -2,17 +2,17 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from 'styles/global'
 import theme from 'styles/theme'
 
-import ScreenResolution from 'components/ScreenResolution'
-import ScreenSize from 'components/ScreenSize'
 import Main from 'components/Main'
+import Header from 'components/Header'
+import ScreenWrapper from 'components/ScreenWrapper'
 import Footer from 'components/Footer'
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyles />
     <Main>
-      <ScreenResolution />
-      <ScreenSize />
+      <Header />
+      <ScreenWrapper />
       <Footer />
     </Main>
   </ThemeProvider>

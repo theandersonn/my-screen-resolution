@@ -3,9 +3,13 @@ import * as S from './styles'
 const ScreenResolution = () => {
   return (
     <S.Wrapper>
-      <h2>Screen Resolution is</h2>
-      <p>Screen Width: {window.outerWidth} pixels</p>
-      <p>Screen Height: {window.outerHeight} pixels</p>
+      <S.Title>Screen Resolution</S.Title>
+      <S.Description>
+        Screen Width: <span>{window.outerWidth}</span> pixels
+      </S.Description>
+      <S.Description>
+        Screen Height: <span>{window.outerHeight}</span> pixels
+      </S.Description>
     </S.Wrapper>
   )
 }
