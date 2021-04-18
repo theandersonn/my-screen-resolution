@@ -4,8 +4,8 @@ export const Wrapper = styled.main`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    flex: 1;
 
     padding: ${theme.spacings.xxsmall};
 
