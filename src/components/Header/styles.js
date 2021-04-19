@@ -7,6 +7,8 @@ export const Wrapper = styled.header`
     height: 32rem;
 
     h1 {
+      font-family: 'Playfair Display';
+      font-style: italic;
       font-size: ${theme.font.sizes.xxlarge};
       color: ${theme.colors.secondary};
     }
