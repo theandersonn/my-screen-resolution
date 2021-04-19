@@ -2,9 +2,9 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.article`
   ${({ theme }) => css`
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
     color: ${theme.colors.white};
     background-color: ${theme.colors.grayDark};
+    border-radius .5rem;
 
     p + p {
       margin-top: ${theme.spacings.xxsmall};
@@ -14,14 +14,20 @@ export const Wrapper = styled.article`
 
 export const Title = styled.h2`
   ${({ theme }) => css`
-    margin-bottom: ${theme.spacings.xsmall};
+    margin-bottom: ${theme.spacings.xxsmall};
     font-size: ${theme.font.sizes.xlarge};
+    border-bottom: 0.1rem solid ${theme.colors.white};
+    padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
   `}
 `
 
-export const Description = styled.p`
+export const Description = styled.div`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.large};
+    padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
+
+    p {
+      font-size: ${theme.font.sizes.large};
+    }
 
     span {
       color: ${theme.colors.secondary};

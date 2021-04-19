@@ -5,10 +5,12 @@ const ScreenResolution = () => {
     <S.Wrapper>
       <S.Title>Screen Resolution</S.Title>
       <S.Description>
-        Screen Width: <span>{window.outerWidth}</span> pixels
-      </S.Description>
-      <S.Description>
-        Screen Height: <span>{window.outerHeight}</span> pixels
+        <p>
+          Screen Width: <span>{window.outerWidth}</span> pixels
+        </p>
+        <p>
+          Screen Height: <span>{window.outerHeight}</span> pixels
+        </p>
       </S.Description>
     </S.Wrapper>
   )

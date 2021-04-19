@@ -1,11 +1,11 @@
-import { TiHeartOutline as HeartIcon } from 'react-icons/ti'
+import { TiHeart as HeartIcon } from 'react-icons/ti'
 
 import * as S from './styles'
 
 const Footer = () => {
   return (
     <S.Wrapper>
-      Made with <HeartIcon /> by
+      Made with <HeartIcon /> by {` `}
       <a
         href="https://github.com/theandersonn"
         target="_blank"

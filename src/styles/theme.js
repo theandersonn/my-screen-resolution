@@ -8,7 +8,7 @@ const theme = {
       medium: '1.6rem',
       large: '1.8rem',
       xlarge: '2.6rem',
-      xxlarge: '4.6rem'
+      xxlarge: '6.6rem'
     }
   },
   colors: {

@@ -27,10 +27,12 @@ const ScreenSize = () => {
     <S.Wrapper>
       <S.Title>Screen Size</S.Title>
       <S.Description>
-        Screen Width: <span>{dimensions.width}</span> pixels
-      </S.Description>
-      <S.Description>
-        Screen Height: <span>{dimensions.height}</span> pixels
+        <p>
+          Screen Width: <span>{dimensions.width}</span> pixels
+        </p>
+        <p>
+          Screen Height: <span>{dimensions.height}</span> pixels
+        </p>
       </S.Description>
     </S.Wrapper>
   )
