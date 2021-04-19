@@ -1,0 +1,17 @@
+import { screen } from '@testing-library/react'
+import { renderWithTheme } from 'utils/tests/helpers'
+
+import Footer from '..'
+
+describe('<Footer />', () => {
+  it('should render correctly', () => {
+    const { container } = renderWithTheme(<Footer />)
+
+    expect(screen.getByRole('link', { name: /theandersonn/i })).toHaveAttribute(
+      'href',
+      'https://github.com/theandersonn'
+    )
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
+})
