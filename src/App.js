@@ -16,7 +16,7 @@ const App = () => (
       <ScreenWrapper />
       <Footer />
       <GithubCorner
-        href="https://github.com/theandersonn"
+        href="https://github.com/theandersonn/my-screen-resolution"
         bannerColor="#2e313a"
         octoColor="#c0ccd4"
       />

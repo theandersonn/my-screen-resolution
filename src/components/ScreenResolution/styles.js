@@ -1,10 +1,14 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.article`
   ${({ theme }) => css`
     color: ${theme.colors.white};
-    background-color: ${theme.colors.grayDark};
     border-radius .5rem;
+
+    ${media.greaterThan('medium')`
+      background-color: ${theme.colors.grayDark};
+    `}
 
     p + p {
       margin-top: ${theme.spacings.xxsmall};
