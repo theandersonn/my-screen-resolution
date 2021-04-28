@@ -5,7 +5,7 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
-      "!src/**/styles/*.{js}"
+      "!<rootDir>/node_modules/"
     ]
   },
   "dependencies": {
