@@ -1,11 +1,10 @@
-import { screen } from '@testing-library/react'
-import { renderWithTheme } from 'utils/tests/helpers'
+import { render, screen } from 'utils/test-utils'
 
 import ScreenWrapper from '..'
 
 describe('<ScreenWrapper />', () => {
   it('should render correctly and have two items', () => {
-    renderWithTheme(<ScreenWrapper />)
+    render(<ScreenWrapper />)
 
     expect(screen.getAllByRole('article')).toHaveLength(2)
   })
