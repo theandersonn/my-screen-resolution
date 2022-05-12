@@ -16,10 +16,11 @@
       "plugin:react-hooks/recommended",
       "plugin:prettier/recommended"
     ],
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "parserOptions": {
         "ecmaFeatures": {
-            "jsx": true
+            "jsx": true,
+            "modules": true
         },
         "ecmaVersion": 12,
         "sourceType": "module"
@@ -29,6 +30,7 @@
       "react-hooks"
     ],
     "rules": {
+      "react/function-component-definition": 0,
       "react/react-in-jsx-scope": "off",
       "no-unused-vars": "warn",
       "import/prefer-default-export": "off",
