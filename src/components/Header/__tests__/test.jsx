@@ -13,7 +13,7 @@ describe('<Header />', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <header
-        class="sc-bdvvaa viVvg"
+        class="sc-bczRLJ fxlbWe"
       >
         <h1>
           What Is My Screen Resolution?

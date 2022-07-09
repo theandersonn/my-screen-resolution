@@ -8,7 +8,7 @@ describe('<Main />', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <main
-        class="sc-bdvvaa lkvuAv"
+        class="sc-bczRLJ iRpuYl"
       >
         Children
       </main>
