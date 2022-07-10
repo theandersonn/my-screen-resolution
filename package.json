@@ -15,7 +15,8 @@
     "test:watch": "react-scripts test --watch",
     "test:coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint ./src --ext .jsx,.js",
+    "prettier:fix": "prettier --write ."
   },
   "browserslist": {
     "production": [

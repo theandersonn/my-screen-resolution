@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.header`
   ${({ theme }) => css`
@@ -18,4 +18,4 @@ export const Wrapper = styled.header`
         font-size: ${theme.font.sizes.xxlarge};
       `}
   `}
-`
+`;

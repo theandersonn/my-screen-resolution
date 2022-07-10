@@ -1,6 +1,6 @@
-import { TiHeart as HeartIcon } from 'react-icons/ti'
+import { TiHeart as HeartIcon } from 'react-icons/ti';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         theandersonn
       </a>
     </S.Wrapper>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

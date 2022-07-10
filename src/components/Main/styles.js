@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.main`
   ${({ theme }) => css`
@@ -12,4 +12,4 @@ export const Wrapper = styled.main`
     height: 100vh;
     background-color: ${theme.colors.primary};
   `}
-`
+`;

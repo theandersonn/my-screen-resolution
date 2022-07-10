@@ -1,7 +1,7 @@
-import ScreenResolution from 'components/ScreenResolution'
-import ScreenSize from 'components/ScreenSize'
+import ScreenResolution from 'components/ScreenResolution';
+import ScreenSize from 'components/ScreenSize';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const ScreenWrapper = () => {
   return (
@@ -9,7 +9,7 @@ const ScreenWrapper = () => {
       <ScreenResolution />
       <ScreenSize />
     </S.Wrapper>
-  )
-}
+  );
+};
 
-export default ScreenWrapper
+export default ScreenWrapper;

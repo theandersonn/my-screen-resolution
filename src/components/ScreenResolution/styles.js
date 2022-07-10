@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.article`
   ${({ theme }) => css`
@@ -14,7 +14,7 @@ export const Wrapper = styled.article`
       margin-top: ${theme.spacings.xxsmall};
     }
   `}
-`
+`;
 
 export const Title = styled.h2`
   ${({ theme }) => css`
@@ -23,7 +23,7 @@ export const Title = styled.h2`
     border-bottom: 0.1rem solid ${theme.colors.white};
     padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
   `}
-`
+`;
 
 export const Description = styled.div`
   ${({ theme }) => css`
@@ -37,4 +37,4 @@ export const Description = styled.div`
       color: ${theme.colors.secondary};
     }
   `}
-`
+`;

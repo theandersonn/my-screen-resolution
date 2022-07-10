@@ -1,12 +1,12 @@
-import { ThemeProvider } from 'styled-components'
-import GlobalStyles from 'styles/global'
-import theme from 'styles/theme'
+import { ThemeProvider } from 'styled-components';
+import GlobalStyles from 'styles/global';
+import theme from 'styles/theme';
 
-import Main from 'components/Main'
-import Header from 'components/Header'
-import ScreenWrapper from 'components/ScreenWrapper'
-import Footer from 'components/Footer'
-import GithubCorner from 'react-github-corner'
+import Main from 'components/Main';
+import Header from 'components/Header';
+import ScreenWrapper from 'components/ScreenWrapper';
+import Footer from 'components/Footer';
+import GithubCorner from 'react-github-corner';
 
 const App = () => (
   <ThemeProvider theme={theme}>
@@ -22,6 +22,6 @@ const App = () => (
       />
     </Main>
   </ThemeProvider>
-)
+);
 
-export default App
+export default App;

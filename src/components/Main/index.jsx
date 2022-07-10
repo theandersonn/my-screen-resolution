@@ -1,13 +1,13 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-import * as S from './styles'
+import * as S from './styles';
 
 const Main = ({ children }) => {
-  return <S.Wrapper>{children}</S.Wrapper>
-}
+  return <S.Wrapper>{children}</S.Wrapper>;
+};
 
 Main.propTypes = {
-  children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};
 
-export default Main
+export default Main;

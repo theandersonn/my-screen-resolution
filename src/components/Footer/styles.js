@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.footer`
   ${({ theme }) => css`
@@ -22,4 +22,4 @@ export const Wrapper = styled.footer`
       }
     }
   `}
-`
+`;

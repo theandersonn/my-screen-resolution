@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './styles';
 
 const ScreenResolution = () => {
   return (
@@ -13,7 +13,7 @@ const ScreenResolution = () => {
         </p>
       </S.Description>
     </S.Wrapper>
-  )
-}
+  );
+};
 
-export default ScreenResolution
+export default ScreenResolution;

@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from 'styled-components'
+import { createGlobalStyle, css } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -39,6 +39,6 @@ const GlobalStyles = createGlobalStyle`
       font-size: ${theme.font.sizes.medium};
     }
   `}
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;

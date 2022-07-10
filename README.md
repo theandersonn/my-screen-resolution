@@ -18,4 +18,4 @@ yarn start
 yarn test
 ```
 
-Made with 💜  by theandersonn
+Made with 💜 by theandersonn

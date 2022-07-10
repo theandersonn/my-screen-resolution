@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
@@ -8,4 +8,4 @@ export const Wrapper = styled.section`
     grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
     grid-gap: ${theme.spacings.medium};
   `}
-`
+`;

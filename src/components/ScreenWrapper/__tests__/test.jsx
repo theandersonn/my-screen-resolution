@@ -1,11 +1,11 @@
-import { render, screen } from 'utils/test-utils'
+import { render, screen } from 'utils/test-utils';
 
-import ScreenWrapper from '..'
+import ScreenWrapper from '..';
 
 describe('<ScreenWrapper />', () => {
   it('should render correctly and have two items', () => {
-    render(<ScreenWrapper />)
+    render(<ScreenWrapper />);
 
-    expect(screen.getAllByRole('article')).toHaveLength(2)
-  })
-})
+    expect(screen.getAllByRole('article')).toHaveLength(2);
+  });
+});
