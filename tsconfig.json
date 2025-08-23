@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "styles/*": ["styles/*"]
+    },
     "target": "esnext",
     "module": "esnext",
     "jsx": "react-jsx",
