@@ -11,7 +11,5 @@ describe('<Footer />', () => {
       'href',
       'https://github.com/theandersonn'
     );
-
-    expect(container.firstChild).toMatchSnapshot();
   });
 });

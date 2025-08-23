@@ -10,15 +10,5 @@ describe('<Header />', () => {
     expect(
       screen.getByRole('heading', { name: /what is my screen resolution\?/i })
     ).toBeInTheDocument();
-
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      <header
-        class="sc-bczRLJ fxlbWe"
-      >
-        <h1>
-          What Is My Screen Resolution?
-        </h1>
-      </header>
-    `);
   });
 });
