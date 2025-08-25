@@ -1,15 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from '../styles/theme';
+import { screen } from '@testing-library/react';
+import { renderWithTheme } from '@/utils/test-utils';
 import HomePage from './page';
 
 describe('Home Page', () => {
   it('renders heading', () => {
-    render(
-      <ThemeProvider theme={theme}>
-        <HomePage />
-      </ThemeProvider>,
-    );
+    renderWithTheme(<HomePage />);
     expect(screen.getByRole('heading')).toHaveTextContent(
       'My Screen Resolution',
     );
