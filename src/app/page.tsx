@@ -1,8 +1,11 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>My Screen Resolution</h1>
-      <p>Online tool to find your screen resolution.</p>
-    </div>
-  );
+'use client';
+
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: ${({ theme }) => theme.colors.secondary};
+`;
+
+export default function HomePage() {
+  return <Title>My Screen Resolution</Title>;
 }

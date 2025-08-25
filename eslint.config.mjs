@@ -24,6 +24,7 @@ const eslintConfig = [
       semi: ['error', 'always'],
       quotes: ['error', 'single'],
       'prettier/prettier': 'error',
+      '@typescript-eslint/no-empty-object-type': 'off',
     },
     ignores: [
       'node_modules/**',
